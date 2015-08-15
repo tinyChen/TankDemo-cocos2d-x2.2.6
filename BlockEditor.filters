@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtil\LogUtil.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Block\BEBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Block\BEObstructedBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Block\BERigidBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Block\BEUnobstructedBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\BEMapScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEBlockView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEBlockEditorView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEMapSceneView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\BEBlockUtil.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\BEGridUtil.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEGrassBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEMetalBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEWallBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEIMapSceneView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEITankView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Block\BEFriableBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\BEMapSceneGrid.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\BEMapSceneGridUpdater.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\BEGrid.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\BEBlockMover.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Behavior\BEBlockBehavior.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Behavior\BETankMoveBehavior.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Behavior\BEBlockMoveBehavior.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Behavior\BEBlockBehaviorManager.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEBulletView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BEIBulletView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\BEBlockCollisionDectector.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Behavior\BETankAttackBehavior.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\BEMapSceneUtil.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStruct\DsList.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Tank\BETank.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Tank\BETankBullet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Tank\BETankPathFinder.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Tank\BETankStraightBullet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Behavior\BETankManualMoveBehavior.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtil\KeyboardListener.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtil\KeyboardListenerUtil.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Tank\BETankPlayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BETankPlayerView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Behavior\BETankManualAttackBehavior.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Tank\BETankEnemy.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="View\BETankEnemyView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AppDelegate.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AppMacros.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtil\KeyboardUtil.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtil\LogUtil.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeoColor.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeoPoint.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeoRect.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeoSize.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\BEBlockType.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Block\BEBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Block\BEFriableBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Block\BEObstructedBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Block\BERigidBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Block\BEUnobstructedBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\BEGrid.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\BEMapScene.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEBlockEditorView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEBlockView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEMapSceneView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\BEBlockUtil.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\BEGridUtil.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEGrassBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEMetalBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEWallBlock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEIMapSceneView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEITankView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\BEToward.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\BEMapSceneGrid.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\BEMapSceneGridUpdater.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\BEBlockMover.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Behavior\BEBlockBehavior.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Behavior\BEBlockMoveBehavior.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Behavior\BETankMoveBehavior.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Behavior\BEBlockBehaviorManager.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEBulletView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BEIBulletView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\BEBlockCollisionDectector.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Behavior\BETankAttackBehavior.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct\DsList.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Tank\BETankStraightBullet.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Tank\BETank.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Tank\BETankBullet.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Tank\BETankPathFinder.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Tank\BETankPlayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Behavior\BETankManualMoveBehavior.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtil\KeyboardListener.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtil\KeyboardListenerUtil.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\BEMapSceneUtil.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BETankPlayerView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Behavior\BETankManualAttackBehavior.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Tank\BETankEnemy.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="View\BETankEnemyView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Release.win32\BlockEditor.exe.intermediate.manifest" />
+  </ItemGroup>
+</Project>
